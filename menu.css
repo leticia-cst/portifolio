@@ -1,0 +1,31 @@
+/*@media only screen and (max-width: 700px)*/
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+nav{ display: inline-flex;
+   position: fixed;
+   top:0;
+   background-color: rgb(176, 144, 205);
+   width: 100%;
+
+}
+.menu{
+   align-content: space-between;
+   margin: 1px;
+   padding: 1px;
+   color: azure;
+   border-bottom:  1px solid gray;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.conteudo{
+    margin-top: 15px;
+}
+    .menu:hover{
+        background-color: blue;
+        border-radius: 15pt;
+        transition: 1s;
+    }
